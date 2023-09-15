@@ -137,7 +137,20 @@ d[d%%2 == 1] # 홀수만 출력
 
 x <- c(1,2,3)
 y <- c(4,5,6)
-x + y
-x * y
+x + y # 대응하는 원소끼리 더하여 출력
+x * y # 대응하는 원소끼리 곱해서 출력
 z <- x + y
 z
+
+# TSPS
+d <- c(1:10)
+sum(d)
+sum(2 * d)
+length(d)
+mean(d[1:5])
+max(d)
+min(d)
+sort(d)
+sort(d, F)
+sort(d, T)
+
